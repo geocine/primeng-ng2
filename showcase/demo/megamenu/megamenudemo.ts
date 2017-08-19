@@ -6,7 +6,7 @@ import {MenuItem} from '../../../components/common/api';
 })
 export class MegaMenuDemo {
 
-    private items: MenuItem[];
+    private items: any[];
 
     ngOnInit() {
         this.items = [
